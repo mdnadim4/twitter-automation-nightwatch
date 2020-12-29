@@ -1,0 +1,16 @@
+{
+  "name": "twitter-login",
+  "version": "1.0.0",
+  "description": "Twitter Login Module Script Automation Script By Nightwatch",
+  "main": "index.js",
+  "scripts": {
+    "test": "nightwatch"
+  },
+  "author": "Nadim Mahmud",
+  "license": "ISC",
+  "devDependencies": {
+    "chromedriver": "87.0.4",
+    "geckodriver": "1.21.1",
+    "nightwatch": "1.5.1"
+  }
+}

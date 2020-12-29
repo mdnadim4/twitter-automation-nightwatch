@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites errors="0"
+            failures="1"
+            tests="8">
+
+  <testsuite name="login"
+    errors="0" failures="1" hostname="" id="" package="login" skipped="0"
+    tests="8" time="115.8" timestamp="">
+  
+    <testcase name="Test Case 1: Go to Twitter Home page" classname="login" time="8.067" assertions="2">
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="Test Case 2: Go to login page &amp; check element" classname="login" time="8.412" assertions="3">
+
+    
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="Test Case 3: Verify login with valid email" classname="login" time="16.46" assertions="1">
+
+    
+    </testcase>
+  
+    <testcase name="Test Case 4: Verify login with valid username" classname="login" time="19.68" assertions="1">
+
+    
+    </testcase>
+  
+    <testcase name="Test Case 5: Verify login with invalid email" classname="login" time="16.14" assertions="0">
+    </testcase>
+  
+    <testcase name="Test Case 6: Verify login with invalid password" classname="login" time="13.99" assertions="0">
+    </testcase>
+  
+    <testcase name="Test Case 7: Verify the Error Message" classname="login" time="16.95" assertions="2">
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="Test Case 8: Verify login with empty data" classname="login" time="16.10" assertions="1">  <failure message="Testing if attribute &#39;disabled&#39; of element &lt;Element [name=@submitLoginButton]&gt; contains &#39;true&#39; in 5000ms - expected &#34;contains &#39;true&#39;&#34; but got: &#34;Element does not have a &#39;disabled&#39; attribute&#34; (5318ms)">    at Page.verifyLoginWithEmptyData (C:\Users\HP\OneDrive\Desktop\twitter-login\page-objects\loginObject.js:117:29)
+    at Object.Test Case 8: Verify login with empty data (C:\Users\HP\OneDrive\Desktop\twitter-login\tests\login.js:72:14)</failure>
+
+    
+    </testcase>
+  
+
+  
+
+    
+
+  
+  </testsuite>
+</testsuites>
